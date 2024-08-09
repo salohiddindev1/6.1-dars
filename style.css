@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: fantasy;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrap {
+  background-color: cyan;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 3px 0 0 white;
+}
+
+h2 {
+  color: rgba(3, 150, 3, 0.411);
+  text-align: center;
+  font-size: 60px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-size: 50px;
+  color: rgba(128, 128, 128, 0.315);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
